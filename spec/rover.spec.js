@@ -79,7 +79,7 @@ describe("Rover class", function() {
     let rover = new Rover(98382);
     expect(rover.position).toBe(98382);
     let roverStatus = rover.receiveMessage(message).results[0];
-    expect(rover.position).toBe(108382);
+    expect(rover.position).toBe(10000);
     expect(roverStatus).toEqual({completed: true});
 
   });

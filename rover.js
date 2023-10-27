@@ -30,7 +30,7 @@ class Rover {
                temp = {completed: false,};
             }
             else {
-               this.position += messageObject.commands[i].value;
+               this.position = messageObject.commands[i].value;
                temp = {completed: true,};
             }
          }
